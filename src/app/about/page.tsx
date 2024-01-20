@@ -3,7 +3,7 @@ const AboutPage = () => {
       <>
 <nav className="border-b px-4 py-2 bg-white">
   <div className="flex flex-wrap items-center justify-between md:justify-around">
-    <img className="h-10" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/150px-Instagram_logo.svg.png" alt="instagram"/>
+    <s className="h-10" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/150px-Instagram_logo.svg.png" alt="instagram"/>
 
     <div className="relative hidden sm:block text-gray-500">
       <input className="search-bar max-w-xs border rounded bg-gray-200 px-4
@@ -27,13 +27,13 @@ const AboutPage = () => {
 
       <div className="md:w-3/12 md:ml-16">
         <img className="w-20 h-20 md:w-40 md:h-40 object-cover rounded-full
-                     border-2 border-pink-600 p-1" src="https://images.unsplash.com/photo-1502791451862-7bd8c1df43a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80" alt="profile"/>
+                     border-2 border-pink-600 p-1" src="https://avatars.githubusercontent.com/u/71559227?s=400&u=ac0a1dfae1421ca4e021ea7cd5c87d308c250d61&v=4" alt="profile"/>
       </div>
 
       <div className="w-8/12 md:w-7/12 ml-4">
         <div className="md:flex md:flex-wrap md:items-center mb-4">
           <h2 className="text-3xl inline-block font-light md:mr-2 mb-2 sm:mb-0">
-            mrtravlerrr_
+            NoisY_Boy
           </h2>
 
           <span className="inline-block fas fa-certificate fa-lg text-blue-500 
@@ -64,17 +64,18 @@ const AboutPage = () => {
         </ul>
 
         <div className="hidden md:block">
-          <h1 className="font-semibold">Mr Travlerrr...</h1>
-          <span>Travel, Nature and Music</span>
-          <p>Lorem ipsum dolor sit amet consectetur</p>
+          <h1 className="font-semibold">Mr ...</h1>
+          <span>if(Breathing)</span>
+          <p>            {" "}Live 
+            </p>
         </div>
 
       </div>
 
       <div className="md:hidden text-sm my-2">
-        <h1 className="font-semibold">Mr Travlerrr...</h1>
+        <h1 className="font-semibold">Mr ...</h1>
         <span>Travel, Nature and Music</span>
-        <p>Lorem ipsum dolor sit amet consectetur</p>
+        <p>Live</p>
       </div>
 
     </header>
