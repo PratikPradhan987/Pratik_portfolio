@@ -1,6 +1,8 @@
-import type { Metadata } from "next";
+import type {  Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+
+import Layout from "@/components/Layout";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +18,27 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Layout >
+          <div className="hidden lg:flex">
+            {children}
+          </div>
+          <div className="lg:hidden flex">
+          <div className="flex justify-center h-[75vh] flex-col relative">
+
+            <div className="z-[2] flex text-[#f9826c] justify-between items-center">
+				<div className="lg:px-12 lg:py-0">
+					<h1 className="text-[#eee] lg:text-8xl text-[3.5rem] font-medium mb-2">Noisy Boy</h1>
+					<h6 className="lg:text-5xl lg:mb-20 w-max text-[#eee] text-2xl font-light relative mb-12 before:animate-[typewriter_2.5s_steps(24)_500ms_forwards] after:w-[0.125em] after:animate-[typewriter_2.5s_steps(24)_500ms_forwards,blink_750ms_steps(24)_infinite] after:ml-[0.4rem]">
+          Desktop mode
+					</h6>
+					
+				</div>
+			</div>				</div>
+
+          </div>
+        </Layout>
+      </body>
     </html>
   );
 }
