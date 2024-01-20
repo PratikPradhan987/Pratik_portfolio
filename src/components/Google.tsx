@@ -18,7 +18,7 @@ function Google() {
       
       <div className="flex justify-center pt-20 bg-white">
         <div>
-          <img className="w-2/3 ml-auto mr-auto mb-6" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"/>
+          <img className="w-2/3 ml-auto mr-auto mb-6" alt="" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"/>
           <div className="flex border border-gray-200 rounded-full p-4 shadow text-xl">
             <div>🕵️‍</div>
             <input type="text" className="w-full outline-none px-3"/>
@@ -31,7 +31,7 @@ function Google() {
         </div>
       </div>
       
-      <div className=" bg-white bg-gray-200 border-t w-full flex justify-between text-gray-600 text-xs">
+      <div className=" bg-white  border-t w-full flex justify-between text-gray-600 text-xs">
         <div className="flex">
           <a className="block p-3">Advertising</a>
           <a className="block p-3">Business</a>
