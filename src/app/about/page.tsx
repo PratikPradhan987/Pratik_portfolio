@@ -1,9 +1,11 @@
+import Image from "next/image";
+
 const AboutPage = () => {
     return (
       <>
 <nav className="border-b px-4 py-2 bg-white">
   <div className="flex flex-wrap items-center justify-between md:justify-around">
-    <s className="h-10" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/150px-Instagram_logo.svg.png" alt="instagram"/>
+    <Image width={40} height={40} className="h-10" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/150px-Instagram_logo.svg.png" alt="instagram"/>
 
     <div className="relative hidden sm:block text-gray-500">
       <input className="search-bar max-w-xs border rounded bg-gray-200 px-4
@@ -26,7 +28,7 @@ const AboutPage = () => {
     <header className="flex flex-wrap items-center p-4 md:py-8">
 
       <div className="md:w-3/12 md:ml-16">
-        <img className="w-20 h-20 md:w-40 md:h-40 object-cover rounded-full
+        <Image width={40} height={40} className="w-20 h-20 md:w-40 md:h-40 object-cover rounded-full
                      border-2 border-pink-600 p-1" src="https://avatars.githubusercontent.com/u/71559227?s=400&u=ac0a1dfae1421ca4e021ea7cd5c87d308c250d61&v=4" alt="profile"/>
       </div>
 
@@ -127,7 +129,7 @@ const AboutPage = () => {
         <div className="w-1/3 p-px md:px-3">
           <a href="#">
             <article className="post bg-gray-100 text-white relative pb-full md:mb-6">
-              <img className="w-full h-full absolute left-0 top-0 object-cover" src="https://images.unsplash.com/photo-1502791451862-7bd8c1df43a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="image"/>
+              <Image width={40} height={40} className="w-full h-full absolute left-0 top-0 object-cover" src="https://images.unsplash.com/photo-1502791451862-7bd8c1df43a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="image"/>
 
               <i className="fas fa-square absolute right-0 top-0 m-1"></i>
               <div className="overlay bg-gray-800 bg-opacity-25 w-full h-full absolute 
@@ -153,7 +155,7 @@ const AboutPage = () => {
         <div className="w-1/3 p-px md:px-3">
           <a href="#">
             <article className="post bg-gray-100 text-white relative pb-full md:mb-6">
-              <img className="w-full h-full absolute left-0 top-0 object-cover" src="https://images.unsplash.com/photo-1498409570040-05bf6d3dd5b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="image"/>
+              <Image width={40} height={40} className="w-full h-full absolute left-0 top-0 object-cover" src="https://images.unsplash.com/photo-1498409570040-05bf6d3dd5b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="image"/>
 
               <div className="overlay bg-gray-800 bg-opacity-25 w-full h-full absolute 
                                 left-0 top-0 hidden">
@@ -178,7 +180,7 @@ const AboutPage = () => {
         <div className="w-1/3 p-px md:px-3">
           <a href="#">
             <article className="post bg-gray-100 text-white relative pb-full  md:mb-6">
-              <img className="w-full h-full absolute left-0 top-0 object-cover" src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="image"/>
+              <Image width={40} height={40} className="w-full h-full absolute left-0 top-0 object-cover" src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="image"/>
               <div className="overlay bg-gray-800 bg-opacity-25 w-full h-full absolute 
                                 left-0 top-0 hidden">
                 <div className="flex justify-center items-center 
@@ -201,7 +203,7 @@ const AboutPage = () => {
         <div className="w-1/3 p-px md:px-3">
           <a href="#">
             <article className="post bg-gray-100 text-white relative pb-full md:mb-6">
-              <img className="w-full h-full absolute left-0 top-0 object-cover" src="https://images.unsplash.com/photo-1533105079780-92b9be482077?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="image"/>
+              <Image width={40} height={40} className="w-full h-full absolute left-0 top-0 object-cover" src="https://images.unsplash.com/photo-1533105079780-92b9be482077?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="image"/>
 
               <i className="fas fa-video absolute right-0 top-0 m-1"></i>
 
@@ -228,7 +230,7 @@ const AboutPage = () => {
         <div className="w-1/3 p-px md:px-3">
           <a href="#">
             <article className="post bg-gray-100 text-white relative pb-full md:mb-6">
-              <img className="w-full h-full absolute left-0 top-0 object-cover" src="https://images.unsplash.com/photo-1475688621402-4257c812d6db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" alt="image"/>
+              <Image width={40} height={40} className="w-full h-full absolute left-0 top-0 object-cover" src="https://images.unsplash.com/photo-1475688621402-4257c812d6db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" alt="image"/>
               <div className="overlay bg-gray-800 bg-opacity-25 w-full h-full absolute 
                                 left-0 top-0 hidden">
                 <div className="flex justify-center items-center 
