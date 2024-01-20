@@ -12,7 +12,7 @@ function Google() {
         <div className="flex items-center">
           <a className="block p-3">Gmail</a>
           <a className="block p-3">Images</a>
-          <Image height={50} width={50} className="rounded-full block " src="https://avatars.githubusercontent.com/u/71559227?s=400&u=ac0a1dfae1421ca4e021ea7cd5c87d308c250d61&v=4"/>
+          <Image alt="my phtot" height={50} width={50} className="rounded-full block " src="https://avatars.githubusercontent.com/u/71559227?s=400&u=ac0a1dfae1421ca4e021ea7cd5c87d308c250d61&v=4"/>
         </div>
       </div>
       
