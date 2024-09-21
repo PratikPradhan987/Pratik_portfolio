@@ -5,12 +5,16 @@ export default function Home() {
 	return (
 		<div className=' flex justify-center h-[80vh] flex-col relative'>
 			<div className="lg:text-[8.5rem] text-[5rem] leading-[1.1] text-[rgba(56, 58, 61, 0.35)]  z-[1] bg-black bg-opacity-40 w-full">
+				<h2 className='animate-typing  text-center font-bold  overflow-hidden items-center w-full text-2xl '>
+					hi,
+				</h2>
 				<h1 className=" text-center font-bold">I BUILD
 					<span className="text-orange-500"> WEBSITES</span>
 				</h1>
-				<h6 className="lg:px-12 lg:py-0 lg:text-5xl text-center font-bold lg:mb-20 w-max overflow-hidden text-[#0b0303] text-2xl relative mb-12 ">
+				<h6 className="text-orange-500 lg:px-12 lg:py-0 lg:text-5xl text-center font-bold lg:mb-20 overflow-hidden items-center w-full text-2xl relative mb-12 ">
 					Full Stack Web Developer
 				</h6>
+
 			</div>
 			<div className="z-[2] flex justify-between items-center pt-20">
 				<div className="lg:px-12 lg:py-0">
@@ -18,14 +22,14 @@ export default function Home() {
 						<h1 className="text-[#eee] lg:text-8xl text-[3.5rem] font-medium mb-2">
 						Noisy Boy
 					</h1> */}
-					<div>
+					<div className='flex gap-4'>
 						<Link href="/projects">
-							<button className="text-3xl font-semibold rounded-md bg-blue-300 text-black hover:shadow-blue-500  cursor-pointer mr-6 px-4 py-2 border-[none]">
+							<button className="text-3xl font-bold  p-4 hover:rounded-3xl rounded-xl  hover:shadow-orange-300 shadow bg-orange-500 text-white cursor-pointer hover:-translate-y-2 duration-1000 transition-all ">
 								View Work
 							</button>
 						</Link>
 						<Link href="/contact">
-							<button className="text-3xl font-semibold rounded-md bg-blue-300 text-black hover:shadow-blue-500 border-[color:var(--accent-color)] cursor-pointer px-4 py-2 border-2 border-solid">
+							<button className="text-3xl font-bold  p-4 hover:rounded-3xl rounded-xl  hover:shadow-orange-300 shadow bg-orange-500 text-white cursor-pointer hover:-translate-y-2 duration-1000 transition-all ">
 								Contact Me
 							</button>
 						</Link>

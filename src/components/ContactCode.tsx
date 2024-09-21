@@ -29,26 +29,26 @@ const contactItems = [
 		link: 'pratik',
 		href: 'https://www.instagram.com/pratik'
 	},
-	{
-		social: 'polywork',
-		link: 'pratik',
-		href: 'https://www.polywork.com/pratik'
-	},
-	{
-		social: 'telegram',
-		link: 'pratik',
-		href: 'https://t.me/pratik'
-	},
-	{
-		social: 'codepen',
-		link: 'pratik',
-		href: 'https://codepen.io/pratik'
-	},
-	{
-		social: 'codesandbox',
-		link: 'pratik',
-		href: 'https://codesandbox.io/u/pratik'
-	}
+	// {
+	// 	social: 'polywork',
+	// 	link: 'pratik',
+	// 	href: 'https://www.polywork.com/pratik'
+	// },
+	// {
+	// 	social: 'telegram',
+	// 	link: 'pratik',
+	// 	href: 'https://t.me/pratik'
+	// },
+	// {
+	// 	social: 'codepen',
+	// 	link: 'pratik',
+	// 	href: 'https://codepen.io/pratik'
+	// },
+	// {
+	// 	social: 'codesandbox',
+	// 	link: 'pratik',
+	// 	href: 'https://codesandbox.io/u/pratik'
+	// }
 ];
 
 const ContactCode = () => {

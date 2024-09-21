@@ -1,6 +1,3 @@
-import Image from 'next/image';
-import styles from '../styles/ProjectCard.module.css';
-
 type projectType = {
 	id: number;
 	image: string;
@@ -13,9 +10,9 @@ const ProjectCard = ({ project }: any) => {
 	return (
 		<div className="bg-[#1f2428] flex flex-col cursor-pointer rounded-[20px] hover:shadow-[4px_4px_10px_rgba(0,0,0,0.1)]">
 			{/* <Image src={project.image} height={300} width={600} alt={project.name} /> */}
-			<iframe src={project.image} width={350} height={250} />
+			<iframe src={project.image} height={250} />
 
-			<div className="p-4 rounded-[0_0_20px_20px]">
+			<div className="p-4 rounded-[0_0_20px_20px] flex flex-col space-y-4">
 				<h3>{project.name}</h3>
 				<p>{project.description}</p>
 				{/* <div className=" flex flex-wrap mt-2 mb-4 mx-0">
@@ -31,7 +28,7 @@ const ProjectCard = ({ project }: any) => {
 							href={project.source_code}
 							target="_blank"
 							rel="noopener noreferrer"
-							className="text-[0.9rem] tracking-[0] cursor-pointer text-[white] no-underline bg-[linear-gradient(_120deg,var(--accent-color)_100%,var(--accent-color)_100%_)] bg-no-repeat bg-[100%_0.2em] bg-[0_88%] transition-[background-size] duration-[0.25s] ease-[ease-in] px-0 py-[0.2rem] hover:bg-[100%_88%]"
+							className="p-2  rounded-xl cursor-pointer text-[white] bg-gray-700 hover:shadow-orange-300 shadow"
 						>
 							Source Code
 						</a>
@@ -40,7 +37,7 @@ const ProjectCard = ({ project }: any) => {
 						href={project.demo}
 						target="_blank"
 						rel="noopener noreferrer"
-						className="text-[0.9rem] tracking-[0] cursor-pointer text-[white] no-underline bg-[linear-gradient(_120deg,var(--accent-color)_100%,var(--accent-color)_100%_)] bg-no-repeat bg-[100%_0.2em] bg-[0_88%] transition-[background-size] duration-[0.25s] ease-[ease-in] px-0 py-[0.2rem] hover:bg-[100%_88%]"
+						className="p-2  rounded-xl cursor-pointer text-[white] bg-gray-700 hover:shadow-orange-300 shadow"
 					>
 						Live Demo
 					</a>
