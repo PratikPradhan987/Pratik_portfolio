@@ -7,7 +7,7 @@ import SourceControlIcon from './icons/SourceControlIcon';
 
 const Bottombar = () => {
 	return (
-		<footer className="bg-[#24292e] h-[25px] border-t-[color:var(--bottombar-border)] text-[rgb(225,228,232)] flex items-center justify-between text-[0.8rem] px-2 py-0 border-t border-solid">
+		<footer className="bg-stone-600 h-[25px] border-t-[color:var(--bottombar-border)] text-[rgb(225,228,232)] flex items-center justify-between text-[0.8rem] px-2 py-0 border-t border-solid">
 			<div className="flex items-center">
 				<a
 					href="https://github.com/itsnitinr/vscode-portfolio"

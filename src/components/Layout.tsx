@@ -23,9 +23,9 @@ const Layout = ({
 			<div className="flex ">
 				<Sidebar />
 				<Explorer />
-				<div style={{ width: '100%' }}>
+				<div className='w-full h-full'>
 					<Tabsbar />
-					<main className="text-[#efefef] flex-1 h-[85vh] overflow-y-auto scroll-smooth">{children}</main>
+					<main className="text-[#efefef]">{children}</main>
 				</div>
 			</div>
 			<Bottombar />
